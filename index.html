@@ -7,6 +7,9 @@
 
     <!--LINKING FONT AWESOME FOR ICONS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!--Linking swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -139,8 +142,59 @@
                 </ul>
             </div>
         </section>
+
+        <!--Testimonials section-->
+        <section class="testimonials-section">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-1.jpg" alt="user-1" class="user-image">
+                                <h3 class="name">Roce Jason</h3>
+                                <i class="feedback">The coffee was rich and full of flavor.</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-2.jpg" alt="user-2" class="user-image">
+                                <h3 class="name">John Dawson</h3>
+                                <i class="feedback">Cold beverages were super refreshing!</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-3.jpg" alt="user-3" class="user-image">
+                                <h3 class="name">James Wilson</h3>
+                                <i class="feedback">Desserts were perfectly sweet and soft.</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-4.jpg" alt="user-4" class="user-image">
+                                <h3 class="name">Merry Cruis</h3>
+                                <i class="feedback">Burger and fries hit the spot—so tasty!</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-5.jpg" alt="user-5" class="user-image">
+                                <h3 class="name">David Mallcom</h3>
+                                <i class="feedback">The special combo was great value and delicious.</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!--linking swipper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!--linking custom script-->
     <script src="script.js"></script>
       
 </body>
